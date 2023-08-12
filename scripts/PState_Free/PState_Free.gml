@@ -7,10 +7,10 @@ function PState_Free(){
 
 	/**jumping**/
 	if (place_meeting(x,y+1,Owall)) and (key_jump) {
-	    vsp = -4.5;
+	    vsp = -6;
 	}
 	else if (place_meeting(x,y+1,OPlatform)) and (key_jump) {
-	    vsp = -4.5;
+	    vsp = -6;
 	}
 
 	/*sprinting (run faster)
